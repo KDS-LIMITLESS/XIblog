@@ -11,17 +11,20 @@ XiBlog is a minimalistic blog for writting comments. [Live Demo](https://xi-blog
 
 
 #### USAGE
-<Comments>
-
+- **Comments**
 The following url directs you to XIblog's homepage where you can write commemts
 
-> [xi-blog.herokuapp.com/](https://xi-blog.herokuapp.com/)
+> (https://xi-blog.herokuapp.com/)
 
 
 > A redirect is made to  [xi-blog.herokuapp.com/comment_sent](https://xi-blog.herokuapp.com/comment_sent) after each successful comment 
 
-- *N.B: You must be logged in to make a comment*
+- *NB: You must be logged in to make a comment*
 
+
+- **Login**
+> (https://xi-blog.herokuapp.com/login)
+-  A registered Username and password required for login. Redirects to comment page
 
 
 #### CONTRIBUTORS
