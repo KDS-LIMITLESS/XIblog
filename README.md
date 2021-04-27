@@ -12,7 +12,7 @@ XiBlog is a minimalistic blog for writting comments. [Live Demo](https://xi-blog
 
 #### USAGE
 - **Comments**
-The following url directs you to XIblog's homepage where you can write commemts
+-The following url directs you to XIblog's homepage where you can write commemts
 
 > (https://xi-blog.herokuapp.com/)
 
