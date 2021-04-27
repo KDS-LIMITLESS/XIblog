@@ -1,0 +1,1 @@
+web: gunicorn Zdjango.wsgi --log-file -
