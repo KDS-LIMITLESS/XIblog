@@ -12,6 +12,7 @@ gunicorn = "*"
 dj-database-url = "*"
 psycopg2 = "*"
 whitenoise = "*"
+boto = "*"
 
 [dev-packages]
 
