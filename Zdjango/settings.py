@@ -13,7 +13,6 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import dj_database_url
-from boto.s3.connection import S3Connection
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -141,8 +140,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = S3Connection(os.environ['EMAIL_HOST_USER'])
-EMAIL_HOST_PASSWORD = S3Connection(os.environ['EMAIL_HOST_PASSWORD'])
+EMAIL_HOST_USER = os.environ.get('Email')
+EMAIL_HOST_PASSWORD = os.environ.get('password')
 DEFAULT_FROM_EMAIL = "XIblog"
 
 db_from_env = dj_database_url.config(conn_max_age=500)
