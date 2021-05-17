@@ -70,5 +70,3 @@ Author [KAMAH DANIEL SOMTOCHUKWU](https://github.com/KDS-LIMITLESS)
 #### LICENCE
 - [ZURI](https://training.zuri.team)
 - [IGRESSIVE FOR GOOD](https://ingressive.org)
-
-
