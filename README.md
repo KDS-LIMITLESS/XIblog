@@ -49,20 +49,22 @@ XiBlog is a minimalistic blog for writting comments
 ```http
     https://xi-blog.herokuapp.com/password-reset-done
 
-  - Confirms that the password reset token was delivered to your email address successfully 
 ```
+- ###### Confirms that the password reset token was delivered to your email address successfully 
+
 
 ```http
     https://xi-blog.herokuapp.com/password-reset-confirm
 
-  - Allows you to set a new password for your account
 ```
+- ###### Allows you to set a new password for your account
+
 
 ```http
     https://xi-blog.herokuapp.com/password-reset-complete
 
- -  Password has been changed succesfully.
 ```
+ -  ###### Password has been changed succesfully.
 
 #### CONTRIBUTORS
 Author [KAMAH DANIEL SOMTOCHUKWU](https://github.com/KDS-LIMITLESS)
