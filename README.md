@@ -1,6 +1,10 @@
 # XIblog
-XiBlog is a minimalistic blog for writting comments. [Live Demo](https://xi-blog.herokuapp.com/)
+XiBlog is a minimalistic blog for writting comments
 
+## URL
+```http
+    https://xi-blog.herokuapp.com
+```
 
 
 #### FEATURES
@@ -10,22 +14,55 @@ XiBlog is a minimalistic blog for writting comments. [Live Demo](https://xi-blog
 
 
 
-#### USAGE
+#### USAGE GUIDE
+
+- **Register**
+```http
+    https://xi-blog.herokuapp.com/register
+```
+
 - **Comments**
--The following url directs you to XIblog's homepage where you can write commemts
 
-> (https://xi-blog.herokuapp.com/)
-
-
-> A redirect is made to  [xi-blog.herokuapp.com/comment_sent](https://xi-blog.herokuapp.com/comment_sent) after each successful comment 
-
-- *NB: You must be logged in to make a comment*
+```http
+    https://xi-blog.herokuapp.com
+```
+- ###### NB: You must be logged in to make a comment
 
 
 - **Login**
-> (https://xi-blog.herokuapp.com/login)
--  A registered Username and password required for login. Redirects to comment page
+```http
+    https://xi-blog.herokuapp.com/login
+```
+-  ###### A registered Username and password required for login. Redirects to comment page if login is successful 
 
+- **Logout**
+```http
+    https://xi-blog.herokuapp.com/logout
+```
+
+- **Password Reset**
+```http
+    https://xi-blog.herokuapp.com/password-reset
+```
+- ###### Sends an email reset token to the specified validated email(email registered with an account).
+
+```http
+    https://xi-blog.herokuapp.com/password-reset-done
+
+  - Confirms that the password reset token was delivered to your email address successfully 
+```
+
+```http
+    https://xi-blog.herokuapp.com/password-reset-confirm
+
+  - Allows you to set a new password for your account
+```
+
+```http
+    https://xi-blog.herokuapp.com/password-reset-complete
+
+ -  Password has been changed succesfully.
+```
 
 #### CONTRIBUTORS
 Author [KAMAH DANIEL SOMTOCHUKWU](https://github.com/KDS-LIMITLESS)
@@ -33,3 +70,5 @@ Author [KAMAH DANIEL SOMTOCHUKWU](https://github.com/KDS-LIMITLESS)
 #### LICENCE
 - [ZURI](https://training.zuri.team)
 - [IGRESSIVE FOR GOOD](https://ingressive.org)
+
+
